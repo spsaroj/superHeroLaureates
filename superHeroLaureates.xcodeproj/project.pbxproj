@@ -8,22 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		B545F7BC226266160011AA7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B545F7BB226266160011AA7E /* AppDelegate.swift */; };
-		B545F7BE226266160011AA7E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B545F7BD226266160011AA7E /* FirstViewController.swift */; };
-		B545F7C0226266160011AA7E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B545F7BF226266160011AA7E /* SecondViewController.swift */; };
 		B545F7C3226266160011AA7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B545F7C1226266160011AA7E /* Main.storyboard */; };
 		B545F7C5226266170011AA7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B545F7C4226266170011AA7E /* Assets.xcassets */; };
 		B545F7C8226266170011AA7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B545F7C6226266170011AA7E /* LaunchScreen.storyboard */; };
+		B545F7D0226266F10011AA7E /* superHeroTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B545F7CF226266F10011AA7E /* superHeroTableViewController.swift */; };
+		B545F7D2226267010011AA7E /* laureatesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B545F7D1226267010011AA7E /* laureatesTableViewController.swift */; };
+		B545F7D4226267280011AA7E /* superHeroLaureates.swift in Sources */ = {isa = PBXBuildFile; fileRef = B545F7D3226267280011AA7E /* superHeroLaureates.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B545F7B8226266160011AA7E /* superHeroLaureates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = superHeroLaureates.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B545F7BB226266160011AA7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B545F7BD226266160011AA7E /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		B545F7BF226266160011AA7E /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		B545F7C2226266160011AA7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B545F7C4226266170011AA7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B545F7C7226266170011AA7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B545F7C9226266170011AA7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B545F7CF226266F10011AA7E /* superHeroTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = superHeroTableViewController.swift; sourceTree = "<group>"; };
+		B545F7D1226267010011AA7E /* laureatesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = laureatesTableViewController.swift; sourceTree = "<group>"; };
+		B545F7D3226267280011AA7E /* superHeroLaureates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = superHeroLaureates.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				B545F7BB226266160011AA7E /* AppDelegate.swift */,
-				B545F7BD226266160011AA7E /* FirstViewController.swift */,
-				B545F7BF226266160011AA7E /* SecondViewController.swift */,
+				B545F7D3226267280011AA7E /* superHeroLaureates.swift */,
+				B545F7CF226266F10011AA7E /* superHeroTableViewController.swift */,
+				B545F7D1226267010011AA7E /* laureatesTableViewController.swift */,
 				B545F7C1226266160011AA7E /* Main.storyboard */,
 				B545F7C4226266170011AA7E /* Assets.xcassets */,
 				B545F7C6226266170011AA7E /* LaunchScreen.storyboard */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B545F7C0226266160011AA7E /* SecondViewController.swift in Sources */,
 				B545F7BC226266160011AA7E /* AppDelegate.swift in Sources */,
-				B545F7BE226266160011AA7E /* FirstViewController.swift in Sources */,
+				B545F7D2226267010011AA7E /* laureatesTableViewController.swift in Sources */,
+				B545F7D4226267280011AA7E /* superHeroLaureates.swift in Sources */,
+				B545F7D0226266F10011AA7E /* superHeroTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
